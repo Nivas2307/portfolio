@@ -228,10 +228,13 @@
     margin-left: 30px;
   }
   .about_para h1 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: lighter;
     letter-spacing: 0;
     margin-left: 25px;
+  }
+  .about_para h1 span{
+    font-size: 20px;
   }
   .about_para h5 {
     font-size: 6px;
@@ -249,7 +252,9 @@
     align-items: center;
     gap: 20px;
   }
-
+.about_down a{
+  text-decoration: none;
+}
   .about_down button {
     width: 100%;
     font-size: 14px;

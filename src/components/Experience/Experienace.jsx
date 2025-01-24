@@ -66,7 +66,7 @@ const Experienace = () => {
 
   return (
     <Element id="experiance" className="exp_container">
-      <h1>Experiance</h1>
+      <h1>Experience</h1>
       <div className="animation-container">
         <div className="animation-content">
           <TypeAnimation

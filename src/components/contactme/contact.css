@@ -94,7 +94,7 @@
 .contact_me .box,
 .contact_sendme {
   opacity: 0; 
-  transform: translateY(10px); 
+  transform: translateY(20px); 
 }
 .contact_me {
   /* border: 2px solid violet; */
@@ -175,8 +175,9 @@
 
   .contact_me .box {
     width: 100%;
-    font-size: 14px;
-    margin: 10px 0;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 10px 0 ;
   }
 
   .contact_sendme {
