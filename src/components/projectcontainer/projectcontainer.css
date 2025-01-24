@@ -1,0 +1,91 @@
+.projectcontainer {
+    /* border: 2px solid red; */
+    height: 700px; 
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 10px black;
+    padding: 10px 30px;
+  }
+  
+  .projectcontainer h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color:gainsboro;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px; 
+    text-shadow: 2px 2px 3px black;
+    padding-top: 50px;
+  }
+  
+  .project_outline {
+    /* border: 2px solid blue; */
+    height: 100px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .project_outline p {
+   width: 100%;
+   height: 60px;
+   /* border: 2px solid red; */
+   justify-content: center;
+   align-items: center;
+   font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    display: flex;
+    color: #2C3335;
+    line-height: 100px;
+  }
+  
+  /* Container for projects */
+  .projectcontainer-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  
+  /* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .projectcontainer {
+    height: auto; 
+    padding: 20px; 
+    box-shadow: none; 
+  }
+
+  .projectcontainer h2 {
+    font-size: 2rem;
+    padding-top: 20px; 
+  }
+
+  .project_outline {
+    height: auto;
+  }
+
+  .project_outline p {
+    font-size: 15px; 
+    line-height: 1.5; 
+    padding: 20px;
+  }
+
+  .projectcontainer-projects {
+    flex-direction: column; 
+    align-items: stretch; 
+    margin-top: 0; 
+    padding: 5px; 
+  }
+
+  .projectcontainer-projects .project {
+    width: 90%; 
+    margin: 10px auto; 
+  }
+}

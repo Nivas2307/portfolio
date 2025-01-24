@@ -1,0 +1,272 @@
+/* Container styles */
+.about_outer {
+  /* border: 2px solid red; */
+  height: 700px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px #777e8b;
+}
+
+.about_inner {
+  /* border: 2px solid violet; */
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+/* Title styling */
+.about_title {
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 20%;
+}
+
+.about_title h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  letter-spacing: 20px;
+}
+
+/* Box and child animations */
+.about_box {
+  /* border: 2px solid blue; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding: 10px 20px 10px 20px;
+}
+
+.about_image {
+  /* border: 2px solid green; */
+  width: 30%;
+  height: 100%;
+  background-image: url(../../assets/nivas.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #cccccc68;
+  border-radius: 50%;
+}
+
+.about_para {
+  /* border: 2px solid yellow; */
+  width: 70%;
+  height: 80%;
+  padding: 30px;
+  margin-bottom: 100px;
+}
+
+/* Paragraph content */
+.about_para p {
+  /* border: 2px solid yellow; */
+  width: 100%;
+  height: 180px;
+  font-size: 28px;
+  word-spacing: 5px;
+  line-height: 3.5rem;
+  padding: 10px;
+  text-transform: capitalize;
+  color: #2c3335;
+  margin-top: 30px;
+}
+
+/* Headings and interactive elements */
+.about_para h3,
+.about_para h1,
+.about_para h5 {
+  padding: 10px;
+}
+.about_para h3 {
+  color: #2c3335;
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+.about_para h1 {
+  color: #2c3335;
+  font-weight: 500;
+}
+.about_para h1 span {
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
+/* Main styles for the name container */
+.name-animation {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #333;
+}
+
+/* Styling for the span containing the name */
+.name {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Styling for each letter */
+.name span {
+  animation: moveIn 1s ease forwards;
+  opacity: 0;
+  color: transparent;
+  background: linear-gradient(360deg, #2475b0, #3498db, #0a79df, #2475b0);
+  background-clip: text;
+  -webkit-background-clip: text;
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.about_para h5 {
+  font-size: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(to left, #3498db, #2b2b52, #3498db);
+  background-clip: text;
+  -webkit-background-clip: text;
+  letter-spacing: 2px;
+}
+
+.about_down {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+/* Button hover animations */
+.about_down button {
+  font-size: 18px;
+  background-color: #1287a5;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.about_down button:hover {
+  background-color: #0b5e73;
+}
+
+.about_content_cv {
+  border: 2px solid #3498db;
+  background: transparent;
+  color: #3498db;
+}
+
+.about_content_cv:hover {
+  background: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+.about_content_work {
+  border: 2px solid grey;
+  background: transparent;
+  color: grey;
+  cursor: pointer;
+}
+
+.about_content_work:hover {
+  background: grey;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .about_outer {
+    height: 100%;
+  }
+
+  .about_inner {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .about_box {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+  }
+
+  .about_image {
+    margin-top: 90px;
+    width: 80%;
+    height: 200px;
+  }
+
+  .about_para {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+  .about_para h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 30px;
+  }
+  .about_para h1 {
+    font-size: 22px;
+    font-weight: lighter;
+    letter-spacing: 0;
+    margin-left: 25px;
+  }
+  .about_para h5 {
+    font-size: 6px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+  .about_para p {
+    font-size: 18px;
+    line-height: 1.8;
+    height: auto;
+    padding: 5px;
+  }
+
+  .about_down {
+    align-items: center;
+    gap: 20px;
+  }
+
+  .about_down button {
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .about_content_cv {
+    height: 40px;
+    width: 45%;
+  }
+  .about_content_work {
+    height: 40px;
+    width: 45%;
+  }
+  .name span {
+    font-size: 1.6rem;
+  }
+}

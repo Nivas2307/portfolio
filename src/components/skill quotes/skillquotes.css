@@ -1,0 +1,123 @@
+/* SkillQuotes container */
+.skillQoutes {
+    width: 100%;
+    overflow: hidden; 
+    padding: 0 10px; 
+}
+
+/* Container for the Marquee */
+.skill-quotes-container {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden; 
+}
+
+/* Styling for the quotes inside the Marquee */
+.quotes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    animation: marquee 60s linear infinite; 
+    white-space: nowrap;
+    overflow-x: hidden; 
+    -webkit-overflow-scrolling: touch; 
+}
+
+/* Styling for each h5 */
+.quotes h5 {
+    font-size: 2rem; 
+    color: #ECF0F1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Adding a colorful gradient animation to each quote */
+.quotes h5:nth-child(odd) {
+    background: linear-gradient(90deg, #FF6A00, #FF6347, #FFD700);
+    background-clip: text;
+    color: transparent;
+    animation: gradient-move 3s infinite ease-in-out;
+}
+
+.quotes h5:nth-child(even) {
+    background: linear-gradient(90deg, #0A79DF, #1E90FF, #4682B4);
+    background-clip: text;
+    color: transparent;
+    animation: gradient-move 3s infinite ease-in-out reverse;
+}
+
+/* Keyframe animation for gradient movement */
+@keyframes gradient-move {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 100%;
+    }
+    100% {
+        background-position: 0%;
+    }
+}
+
+/* Fade-in effect for each quote */
+@keyframes fadeIn {
+    0% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+/* Marquee animation */
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .skillQoutes {
+        padding: 0 5px; 
+    }
+
+    .quotes {
+        animation: marquee 80s linear infinite; 
+    white-space: nowrap;
+
+    }
+
+    .quotes h5 {
+        font-size: 1.2rem; 
+        font-weight: bolder; 
+    font-family: 'Roboto', sans-serif;
+       
+    }
+}
+
+@media (max-width: 480px) {
+    .quotes {
+        animation: marquee 80s linear infinite; 
+    white-space: nowrap;
+
+    }
+
+    .quotes h5 {
+        font-size: 1.2rem; 
+        font-weight: bolder; 
+    font-family: 'Roboto', sans-serif;
+
+    }
+}

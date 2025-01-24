@@ -1,0 +1,57 @@
+.lgo {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    font-family: 'Arial', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.lgo h2 {
+  font-family: 'Fira Code', monospace; 
+  font-size: 22px;
+  font-weight: 900;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.lgo .bracket {
+  color: #2F363F; 
+  font-size: 2rem;
+}
+
+.lgo .develop {
+  color: #2F363F; 
+}
+
+.lgo .highlight {
+  color: #3498DB; 
+  font-weight: bold;
+  font-size: 1.2em; 
+  margin-left: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .lgo {
+    padding: 5px; 
+  }
+
+  .lgo h2 {
+    font-size: 18px;
+  }
+
+  .lgo .highlight {
+    font-size: 1em; 
+    margin-left: 5px; 
+  }
+}
+
+
+
