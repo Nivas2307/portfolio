@@ -228,13 +228,12 @@
     margin-left: 30px;
   }
   .about_para h1 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: lighter;
-    letter-spacing: 0;
-    margin-left: 25px;
+   
   }
   .about_para h1 span{
-    font-size: 20px;
+    font-size: 18px;
   }
   .about_para h5 {
     font-size: 6px;
@@ -272,6 +271,6 @@
     width: 45%;
   }
   .name span {
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
 }

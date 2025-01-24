@@ -1,5 +1,6 @@
 /* General Styles */
 form {
+  height: 620px;
   /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
@@ -7,8 +8,8 @@ form {
   align-items: center;
   border-radius: 20px;
   background-color: white;
-  padding: 50px 20px;
-  gap: 20px;
+  /* padding: 30px 20px; */
+  gap: 10px;
   box-shadow: 1px 1px 10px #777e8b;
 
 }
@@ -29,18 +30,18 @@ form p span {
   font-weight: 700;
   text-shadow: 1px 1px 2px gray;
   text-transform: capitalize;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 .contact_send h5 span {
   color: #3498db;
   text-transform: capitalize;
-  font-size: 28px;
+  font-size: 24px;
   letter-spacing: 2px;
 }
 .contact_send h5 {
   text-transform: capitalize;
-  font-size: 28px;
+  font-size: 24px;
   letter-spacing: 2px;
 }
 
@@ -137,10 +138,11 @@ textarea::placeholder {
     width: 200px;
     font-size: 16px;
     padding: 10px;
-    margin-bottom: 20px;
+  
   }
 
   .status_message {
+    color: red;
     font-size: 18px;
     text-align: center;
     margin-top: 10px;
@@ -149,7 +151,6 @@ textarea::placeholder {
     margin-top: 10px;
   }
   .contact_send h5 {
-    margin-bottom: 10px;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: normal;

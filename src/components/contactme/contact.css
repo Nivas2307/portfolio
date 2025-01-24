@@ -24,7 +24,7 @@
   text-align: center;
   letter-spacing: 4px;
   text-shadow: 2px 2px 3px black;
-  margin-top: 80px;
+  margin-top: 40px;
   /* box-shadow: 1px 1px 10px  #777E8B; */
 }
 .contact_arrange {
@@ -38,24 +38,25 @@
 }
 .contact_details {
   /* border: 2px solid black; */
-  height: 100%;
+  height: auto;
   width: 45%;
   box-shadow: 1px 1px 5px gray;
-  padding: 40px 5px;
+  padding: 20px 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   border-radius: 20px;
 }
 .contact_sendme {
-  /* border: 2px solid orangered; */
+  /* border: 2px solid  green; */
   height: 100%;
   width: 40%;
   box-shadow: 1px 1px 10px grey;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
+  margin-bottom: 30px;
 }
 
 .contact_content {
@@ -66,6 +67,7 @@
   box-shadow: 1px 1px 10px #777e8b;
   padding: 20px;
   border-radius: 20px;
+  margin-bottom: 10px;
 }
 
 .contact_content p {
@@ -98,12 +100,13 @@
 }
 .contact_me {
   /* border: 2px solid violet; */
-  height: 50%;
+  height: auto;
   width: 90%;
   border-radius: 20px;
   box-shadow: 1px 1px 10px #777e8b;
   padding: 20px;
-  gap: 10px;
+
+  
 }
 
 .contact_me .box {
@@ -171,6 +174,7 @@
     width: 100%;
     height: auto;
     padding: 10px;
+    margin-top: 30px;
   }
 
   .contact_me .box {

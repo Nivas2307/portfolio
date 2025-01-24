@@ -35,7 +35,7 @@ const Contact = () => {
         opacity: 1,
         y: 0,
         duration: 0.8,
-        stagger: 0.2, // Staggered animation for text
+        stagger: 0.2, 
         ease: "power2.out",
         scrollTrigger: {
           trigger: ".contact_content",
@@ -53,7 +53,7 @@ const Contact = () => {
         opacity: 1,
         y: 0,
         duration: 1,
-        stagger: 0.3, // Stagger each box animation
+        stagger: 0.3, 
         ease: "power2.out",
         scrollTrigger: {
           trigger: ".contact_me",
@@ -66,14 +66,14 @@ const Contact = () => {
     // Animate contact_sendme (form)
     gsap.fromTo(
       ".contact_sendme",
-      { opacity: 0, x: 50 },
+      { opacity: 0, x:  -50 },
       {
         opacity: 1,
         x: 0,
-        duration: 1,
+        duration: 1.2,
         ease: "power2.out",
         scrollTrigger: {
-          trigger: ".contact_sendme",
+          trigger: ".contact_content",
           start: "top 80%",
           toggleActions: "play none none reverse",
         },
