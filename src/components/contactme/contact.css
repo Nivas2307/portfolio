@@ -142,7 +142,7 @@ margin-top: 30px;
   }
 
   .contact_details {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     gap: 10px;
   }
@@ -187,7 +187,7 @@ margin-top: 30px;
     padding-left: 10px;
   }
   .contact_sendme {
-    width: 90%;
+    width: 100%;
   }
 }
 /* Large Devices (max-width: 1200px) */
@@ -210,7 +210,7 @@ margin-top: 30px;
   }
 
   .contact_details {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     gap: 10px;
   }
@@ -255,7 +255,7 @@ margin-top: 30px;
     padding-left: 10px;
   }
   .contact_sendme {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -279,7 +279,7 @@ margin-top: 30px;
   }
 
   .contact_details {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     gap: 10px;
   }
@@ -324,7 +324,7 @@ margin-top: 30px;
     padding-left: 10px;
   }
   .contact_sendme {
-    width: 90%;
+    width: 100%;
   }
  
 }
@@ -349,7 +349,7 @@ margin-top: 30px;
   }
 
   .contact_details {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     gap: 10px;
   }
@@ -394,7 +394,7 @@ margin-top: 30px;
     padding-left: 10px;
   }
   .contact_sendme {
-    width: 90%;
+    width: 100%;
   }
 }
 
@@ -418,7 +418,7 @@ margin-top: 30px;
   }
 
   .contact_details {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     gap: 10px;
   }
@@ -463,6 +463,6 @@ margin-top: 30px;
     padding-left: 10px;
   }
   .contact_sendme {
-    width: 90%;
+    width: 100%;
   }
 }

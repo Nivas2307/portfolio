@@ -55,8 +55,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #cccccc55;
-  border-radius: 50%;
+
 }
 
 .about_para {
@@ -222,6 +221,7 @@
     margin-top: 200px;
     width: 80%;
     height: 750PX;
+  
   }
 
   .about_para {
@@ -311,9 +311,9 @@
   }
 
   .about_image {
-    margin-top: 90px;
+    margin-top: 120px;
     width: 80%;
-    height: 600px;
+    height: 500px;
   }
 
   .about_para {
@@ -329,7 +329,7 @@
   .about_para h1 {
     font-size: 15px;
     font-weight: lighter;
-    margin-left: 300PX;
+    margin-left: 200PX;
    
   }
   .about_para h1 span{
@@ -352,7 +352,7 @@
     gap: 25px;
     /* border: 2px solid red; */
     margin-top: 100px;
-    margin-left: 320PX;
+    margin-left: 200PX;
   }
 .about_down a{
   text-decoration: none;
@@ -400,7 +400,7 @@
   .about_image {
     margin-top: 90px;
     width: 80%;
-    height: 200px;
+    height: 230px;
   }
 
   .about_para {
@@ -489,7 +489,7 @@
   .about_image {
     margin-top: 90px;
     width: 80%;
-    height: 350px;
+    height: 230px;
   }
 
   .about_para {
@@ -503,13 +503,15 @@
   
   }
   .about_para h1 {
-    font-size: 15px;
-    font-weight: lighter;
-    margin-left: 20PX;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10PX;
+    font-weight: bold;
+
    
   }
   .about_para h1 span{
-    font-size: 15px;
+    font-size: 14px;
   }
   .about_para h5 {
     font-size: 6px;
