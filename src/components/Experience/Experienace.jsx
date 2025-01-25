@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useLayoutEffect } from "react";
 import "./Experienece.css";
 import { TypeAnimation } from "react-type-animation";
 import CountUp from "react-countup";
@@ -9,7 +9,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Experienace = () => {
-  useEffect(() => {
+  useLayoutEffect(() => {
     // Animate the experience container
     gsap.fromTo(
       ".experiance_container",
@@ -108,6 +108,7 @@ const Experienace = () => {
           decimal=","
           prefix=" "
           suffix="+"
+          onStart={() => console.log("CountUp Started")}
         >
           {({ countUpRef }) => (
             <div className="count_box">
@@ -125,6 +126,7 @@ const Experienace = () => {
           decimal=","
           prefix=" "
           suffix="+"
+          onStart={() => console.log("CountUp Started")}
         >
           {({ countUpRef }) => (
             <div className="count_box">
@@ -142,6 +144,7 @@ const Experienace = () => {
           decimal=","
           prefix=" "
           suffix="+"
+          onStart={() => console.log("CountUp Started")}
         >
           {({ countUpRef }) => (
             <div className="count_box">
@@ -159,6 +162,7 @@ const Experienace = () => {
           decimal=","
           prefix=" "
           suffix=" +"
+          onStart={() => console.log("CountUp Started")}
         >
           {({ countUpRef }) => (
             <div className="count_box">

@@ -210,7 +210,10 @@
     100% { transform: scale(1); }
 }
 
-@media (max-width: 768px) {
+
+
+/* Large Devices (max-width: 1200px) */
+@media (max-width: 1200px) {
     .service_outer {
         height: auto;
         flex-direction: column;
@@ -297,4 +300,274 @@
         font-size: 16px;
         animation: bounceIn 1.5s ease-out forwards;
     }
-}
+  }
+  
+  /* Medium Devices (max-width: 992px) */
+  @media (max-width: 992px) {
+    .service_outer {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+       
+    }
+
+    .service_inner {
+        width: 100%;
+        height: auto;
+        animation: slideUp 1s ease-out forwards;
+    }
+
+    .service_box_layout {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        
+    }
+
+    .service_box {
+        width: 90%;
+        height: auto;
+        animation: bounceIn 1s ease-out forwards;
+    }
+
+    .service_head {
+        height: auto;
+        text-align: center;
+        padding: 10px 0;
+       
+    }
+
+    .service_head h1 {
+        font-size: 2rem;
+         margin-bottom: 10px;
+       
+    }
+
+    .service_head p {
+        font-size: 14px;
+        width: 90%;
+        padding: 5px;
+     line-height: 25px;
+    }
+
+    .service_icon {
+        height: auto;
+        padding: 10px;
+        animation: zoomIn 1s ease-out forwards;
+    }
+
+    .service_heading {
+        font-size: 18px;
+        text-align: center;
+       
+    }
+
+    .service_para {
+        font-size: 12px;
+        padding: 5px;
+        line-height: 24px;
+       
+    }
+
+    .service_bud button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .out_box {
+        height: 60px;
+        width: 60px;
+        animation: pulse 1s infinite;
+    }
+
+    .round_box {
+        height: 30px;
+        width: 30px;
+        animation: pulse 1s infinite;
+    }
+
+    .ic {
+        font-size: 16px;
+        animation: bounceIn 1.5s ease-out forwards;
+    }
+  }
+  
+  /* Tablets and Small Screens (max-width: 768px) */
+  @media (max-width: 768px) {
+    .service_outer {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+       
+    }
+
+    .service_inner {
+        width: 100%;
+        height: auto;
+        animation: slideUp 1s ease-out forwards;
+    }
+
+    .service_box_layout {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        
+    }
+
+    .service_box {
+        width: 90%;
+        height: auto;
+        animation: bounceIn 1s ease-out forwards;
+    }
+
+    .service_head {
+        height: auto;
+        text-align: center;
+        padding: 10px 0;
+       
+    }
+
+    .service_head h1 {
+        font-size: 2rem;
+         margin-bottom: 10px;
+       
+    }
+
+    .service_head p {
+        font-size: 14px;
+        width: 90%;
+        padding: 5px;
+     line-height: 25px;
+    }
+
+    .service_icon {
+        height: auto;
+        padding: 10px;
+        animation: zoomIn 1s ease-out forwards;
+    }
+
+    .service_heading {
+        font-size: 18px;
+        text-align: center;
+       
+    }
+
+    .service_para {
+        font-size: 12px;
+        padding: 5px;
+        line-height: 24px;
+       
+    }
+
+    .service_bud button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .out_box {
+        height: 60px;
+        width: 60px;
+        animation: pulse 1s infinite;
+    }
+
+    .round_box {
+        height: 30px;
+        width: 30px;
+        animation: pulse 1s infinite;
+    }
+
+    .ic {
+        font-size: 16px;
+        animation: bounceIn 1.5s ease-out forwards;
+    }
+  }
+  
+  /* Small Screens (max-width: 576px) */
+  @media (max-width: 576px) {
+    .service_outer {
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+       
+    }
+
+    .service_inner {
+        width: 100%;
+        height: auto;
+        animation: slideUp 1s ease-out forwards;
+    }
+
+    .service_box_layout {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        
+    }
+
+    .service_box {
+        width: 90%;
+        height: auto;
+        animation: bounceIn 1s ease-out forwards;
+    }
+
+    .service_head {
+        height: auto;
+        text-align: center;
+        padding: 10px 0;
+       
+    }
+
+    .service_head h1 {
+        font-size: 2rem;
+         margin-bottom: 10px;
+       
+    }
+
+    .service_head p {
+        font-size: 14px;
+        width: 90%;
+        padding: 5px;
+     line-height: 25px;
+    }
+
+    .service_icon {
+        height: auto;
+        padding: 10px;
+        animation: zoomIn 1s ease-out forwards;
+    }
+
+    .service_heading {
+        font-size: 18px;
+        text-align: center;
+       
+    }
+
+    .service_para {
+        font-size: 12px;
+        padding: 5px;
+        line-height: 24px;
+       
+    }
+
+    .service_bud button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .out_box {
+        height: 60px;
+        width: 60px;
+        animation: pulse 1s infinite;
+    }
+
+    .round_box {
+        height: 30px;
+        width: 30px;
+        animation: pulse 1s infinite;
+    }
+
+    .ic {
+        font-size: 16px;
+        animation: bounceIn 1.5s ease-out forwards;
+    }
+  }

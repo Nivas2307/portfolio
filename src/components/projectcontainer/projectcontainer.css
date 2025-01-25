@@ -54,8 +54,118 @@
   }
   
   
-  /* Responsive styles for smaller screens */
+
+/* Large Devices (max-width: 1200px) */
+@media (max-width: 1200px) {
+  .projectcontainer {
+    height: auto; 
+    padding: 20px; 
+    box-shadow: none; 
+  }
+
+  .projectcontainer h2 {
+    font-size: 2rem;
+    padding-top: 20px; 
+  }
+
+  .project_outline {
+    height: auto;
+  }
+
+  .project_outline p {
+    font-size: 15px; 
+    line-height: 1.5; 
+    padding: 20px;
+  }
+
+  .projectcontainer-projects {
+    flex-direction: column; 
+    align-items: stretch; 
+    margin-top: 0; 
+    padding: 5px; 
+  }
+
+  .projectcontainer-projects .project {
+    width: 90%; 
+    margin: 10px auto; 
+  }
+}
+
+/* Medium Devices (max-width: 992px) */
+@media (max-width: 992px) {
+  .projectcontainer {
+    height: auto; 
+    padding: 20px; 
+    box-shadow: none; 
+  }
+
+  .projectcontainer h2 {
+    font-size: 2rem;
+    padding-top: 20px; 
+  }
+
+  .project_outline {
+    height: auto;
+  }
+
+  .project_outline p {
+    font-size: 15px; 
+    line-height: 1.5; 
+    padding: 20px;
+  }
+
+  .projectcontainer-projects {
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 0; 
+    padding: 5px; 
+  }
+
+  .projectcontainer-projects .project {
+    width: 90%; 
+    margin: 10px auto; 
+  }
+ 
+}
+
+/* Tablets and Small Screens (max-width: 768px) */
 @media (max-width: 768px) {
+  .projectcontainer {
+    height: auto; 
+    padding: 20px; 
+    box-shadow: none; 
+  }
+
+  .projectcontainer h2 {
+    font-size: 2rem;
+    padding-top: 20px; 
+  }
+
+  .project_outline {
+    height: auto;
+  }
+
+  .project_outline p {
+    font-size: 15px; 
+    line-height: 1.5; 
+    padding: 20px;
+  }
+
+  .projectcontainer-projects {
+    flex-direction: column; 
+    align-items: stretch; 
+    margin-top: 0; 
+    padding: 5px; 
+  }
+
+  .projectcontainer-projects .project {
+    width: 90%; 
+    margin: 10px auto; 
+  }
+}
+
+/* Small Screens (max-width: 576px) */
+@media (max-width: 576px) {
   .projectcontainer {
     height: auto; 
     padding: 20px; 
