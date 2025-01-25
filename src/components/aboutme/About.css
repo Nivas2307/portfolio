@@ -327,9 +327,9 @@
     margin-left: 30px;
   }
   .about_para h1 {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: lighter;
-    margin-left: 200PX;
+    margin-left: 100PX;
    
   }
   .about_para h1 span{
@@ -503,15 +503,14 @@
   
   }
   .about_para h1 {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
-    margin-left: 10PX;
-    font-weight: bold;
-
-   
+    letter-spacing: normal;
+    margin-left: 60px;
   }
   .about_para h1 span{
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bolder;
   }
   .about_para h5 {
     font-size: 6px;
