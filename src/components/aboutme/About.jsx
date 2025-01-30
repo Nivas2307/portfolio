@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./About.css";
 import { Element, Link } from "react-scroll";
-import PDF from "../../assets/Nivasnew.pdf";
+import PDF from "../../assets/nivasResume.pdf";
 import Mern from "../merntittle/Mern";
 import { FaDownload } from "react-icons/fa";
 import { SiPolywork } from "react-icons/si";

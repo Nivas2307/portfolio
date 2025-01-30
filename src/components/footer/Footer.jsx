@@ -33,7 +33,7 @@ const Footer = () => {
               <FaGithub className="i" />
             </a>
             <a
-              href="https://www.linkedin.com/in/nivas-pandiyan-2006a933b"
+              href="http://www.linkedin.com/in/nivas-pandiyan"
               target="_blank"
               style={{ color: "white", textDecoration: "none" }}
             >
