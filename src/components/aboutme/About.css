@@ -48,14 +48,15 @@
 }
 
 .about_image {
-  /* border: 2px solid green; */
-  width: 30%;
-  height: 100%;
-  background-image: url(../../assets/nivas.png);
+  /* border: 2px solid gray; */
+  width: 28%;
+  height: 90%;
+  background-image: url(../../assets/niv7.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-
+  border-radius: 50%;
+box-shadow: 1px 1px 5px gray;
 }
 
 .about_para {
@@ -221,6 +222,8 @@
     margin-top: 200px;
     width: 80%;
     height: 750PX;
+  border-radius: 50%;
+    
   
   }
 
@@ -314,6 +317,8 @@
     margin-top: 120px;
     width: 80%;
     height: 500px;
+  border-radius: 50%;
+
   }
 
   .about_para {
@@ -401,6 +406,8 @@
     margin-top: 90px;
     width: 80%;
     height: 230px;
+  border-radius: 50%;
+
   }
 
   .about_para {
@@ -490,6 +497,8 @@
     margin-top: 90px;
     width: 80%;
     height: 230px;
+  border-radius: 50%;
+
   }
 
   .about_para {

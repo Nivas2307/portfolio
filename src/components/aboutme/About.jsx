@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./About.css";
 import { Element, Link } from "react-scroll";
-import PDF from "../../assets/nivasResume.pdf";
+import PDF from "../../assets/NivasCV.pdf";
 import Mern from "../merntittle/Mern";
 import { FaDownload } from "react-icons/fa";
 import { SiPolywork } from "react-icons/si";
@@ -40,12 +40,26 @@ const About = () => {
     // Animate about_image
     gsap.fromTo(
       ".about_image",
-      { scale: 0, opacity: 0 },
+      { 
+        scale: 0.3, 
+        opacity: 0, 
+        y: 200, 
+        rotateY: 180, 
+        rotateX: 20, // Added slight 3D effect  
+        filter: "blur(20px)", 
+        boxShadow: "0px 0px 50px rgba(255,255,255,0.5)", // Light pulse effect
+      },
       {
-        scale: 1,
+        scale: 1.1, // Slight overshoot for more impact  
         opacity: 1,
-        duration: 1,
-        ease: "elastic.out(1, 0.75)",
+        y: 0,
+        rotateY: 0,
+        rotateX: 0,
+        filter: "blur(0px)",
+        boxShadow: "0px 0px 20px rgba(255,255,255,0.2)", // Glow fades softly  
+        duration: 3, // Slower for cinematic effect  
+        ease: "elastic.out(1, 0.5)", // Bouncy heroic feel  
+        delay: 0.2, // Slight delay for suspense  
         scrollTrigger: {
           trigger: ".about_image",
           start: "top 85%",
@@ -53,6 +67,9 @@ const About = () => {
         },
       }
     );
+    
+    
+    
 
     // Animate about_down buttons
     gsap.fromTo(

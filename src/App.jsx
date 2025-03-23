@@ -72,9 +72,9 @@ const App = () => {
             <section id="projects">
               <Projectcontainer />
             </section>
-            <section id="experience">
+            {/* <section id="experience">
               <Experienace />
-            </section>
+            </section> */}
             <section id="contact">
               <Contact />
             </section>
