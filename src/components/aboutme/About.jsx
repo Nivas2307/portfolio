@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "./About.css";
 import { Element, Link } from "react-scroll";
-import PDF from "../../assets/NivasCV.pdf";
+import PDF from "../../assets/Nivas  bio.pdf";
 import Mern from "../merntittle/Mern";
 import { FaDownload } from "react-icons/fa";
 import { SiPolywork } from "react-icons/si";
@@ -113,10 +113,9 @@ const About = () => {
               <Mern />
             </h5>
             <p>
-              I build modern, responsive web interfaces with a focus on clean
-              code and seamless user experiences. As a front-end and back-end
-              developer, I turn ideas into digital solutions that perform
-              flawlessly. Let’s bring your vision to life!
+              Passionate Frontend Developer specializing in the MERN stack,
+              with a strong focus on design and user experience. Skilled in building responsive, interactive,and visually engaging web applications.
+              A quick learner and creative problem-solver,eager to contribute to dynamic teams and deliver impactful solutions in modern tech environments.
             </p>
             <div className="about_down">
               <a href={PDF} download={PDF}>

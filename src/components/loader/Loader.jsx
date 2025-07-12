@@ -16,7 +16,7 @@ const Loader = () => {
         
     }}
     >
-        <BounceLoading fill="#5100ff"/>
+        <BounceLoading fill=" #3498DB"/>
     </div>
   )
 }

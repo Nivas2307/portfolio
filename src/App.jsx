@@ -3,7 +3,7 @@ import "./App.css";
 import Nav from "./components/navbar/Nav";
 import About from "./components/aboutme/About";
 import Skill from "./components/myskills/Skill";
-import Experienace from "./components/Experience/Experienace";
+// import Experienace from "./components/Experience/Experienace";
 import Contact from "./components/contactme/Contact";
 import Footer from "./components/footer/Footer";
 import Service from "./components/service/Service";

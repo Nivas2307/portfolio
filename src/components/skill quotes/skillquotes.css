@@ -41,7 +41,7 @@
 
 /* Adding a colorful gradient animation to each quote */
 .quotes h5:nth-child(odd) {
-    background: linear-gradient(90deg, #FF6A00, #FF6347, #FFD700);
+        background: linear-gradient(90deg, #0A79DF, #1E90FF, #4682B4);
     background-clip: text;
     color: transparent;
     animation: gradient-move 3s infinite ease-in-out;

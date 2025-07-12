@@ -12,7 +12,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { IoMdStar } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { MdApi } from "react-icons/md";
-import { FaInfinity } from "react-icons/fa6";
+import { SiRedux } from "react-icons/si";
+import { FaFigma } from "react-icons/fa";
 import SkillQuotes from "../skill quotes/SkillQuotes";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -126,11 +127,12 @@ const Skill = () => {
             <h5>Rest API</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <h5>Loading....</h5>
+            <SiRedux />
+            <h5>Redux</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <FaInfinity />
-            <h5>....</h5>
+            <FaFigma/>
+            <h5>Figma</h5>
           </div>
         </div>
         <div className="skillcontainer_image">
