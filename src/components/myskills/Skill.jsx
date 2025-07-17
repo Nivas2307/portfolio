@@ -79,7 +79,7 @@ const Skill = () => {
   return (
     <Element id="skill" className="skill_outer">
       <div className="skill_head">
-        <h1>My Tech-Stack</h1>
+        <h1 className="heading">My Tech-Stack</h1>
         <div className="skillQoutes">
           <SkillQuotes />
         </div>
@@ -87,51 +87,51 @@ const Skill = () => {
       <div className="skill_both">
         <div className="skillcontainer_text">
           <div className="skilcontainer_skillset">
-            <FaHtml5 />
+            <FaHtml5 color="#E44D26" />
             <h5>HTML</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <FaCss3Alt />
+            <FaCss3Alt color="#264DE4" />
             <h5>CSS</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <IoLogoJavascript />
+            <IoLogoJavascript color="#F0DB4F" />
             <h5>JavaScript</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <FaReact />
+            <FaReact color="#61DBFB" />
             <h5>React JS</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <FaNodeJs />
+            <FaNodeJs color="#68A063" />
             <h5>Node JS</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <DiMongodb />
+            <DiMongodb color="#4DB33D" />
             <h5>Mongo DB</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <RiTailwindCssFill />
+            <RiTailwindCssFill color="#38BDF8" />
             <h5>TailWind CSS</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <IoMdStar />
+            <IoMdStar color="#007FFF" />
             <h5>Material UI</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <FaGithub />
+            <FaGithub color="#181717" />
             <h5>GitHub</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <MdApi />
+            <MdApi color="#E535AB" />
             <h5>Rest API</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <SiRedux />
+            <SiRedux color="#764ABC" />
             <h5>Redux</h5>
           </div>
           <div className="skilcontainer_skillset">
-            <FaFigma/>
+            <FaFigma color="#F24E1E" />
             <h5>Figma</h5>
           </div>
         </div>

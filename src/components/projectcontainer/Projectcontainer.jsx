@@ -130,7 +130,7 @@ function Projectcontainer() {
   return (
     <Element id="project" className="projectcontainer">
       <div className="project_outline">
-        <h2>My Projects</h2>
+        <h2 className="heading">My Projects</h2>
         <p>Here are some projects I have done to make people's lives easier!</p>
       </div>
       <div className="projectcontainer-projects">

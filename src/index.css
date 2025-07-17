@@ -5,9 +5,17 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.heading {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  color: #222;
 }
 
 body.light {

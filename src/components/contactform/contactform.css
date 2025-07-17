@@ -1,17 +1,17 @@
 /* General Styles */
 form {
-  height: 620px;
+  height: 600px;
   /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: white;
-  /* padding: 30px 20px; */
   gap: 10px;
-  box-shadow: 1px 1px 10px #777e8b;
-
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 2px;
 }
 
 form p {
@@ -19,25 +19,24 @@ form p {
   font-size: 28px;
   font-weight: 900;
   color: #2c3335;
-  line-height: 1.4;
+  line-height: 1;
   word-wrap: break-word;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 form p span {
   /* border:  2px solid red; */
   color: #3498db;
-  font-weight: 700;
-  text-shadow: 1px 1px 2px gray;
+  font-weight: bolder;
   text-transform: capitalize;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 .contact_send h5 span {
   color: #3498db;
   text-transform: capitalize;
   font-size: 24px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .contact_send h5 {
   text-transform: capitalize;
@@ -47,24 +46,24 @@ form p span {
 
 /* Default styles for desktop */
 input {
-  width: 450px;
+  width: 500px;
   height: 50px;
-  padding-left: 10px;
+  padding: 10px;
   border-radius: 10px;
   border: none;
   outline: none;
-  background: #dae0e2;
+  background: rgba(128, 128, 128, 0.258);
 }
 
 /* Default styles for desktop */
 textarea {
   height: 120px;
-  width: 450px;
+  width: 500px;
   border-radius: 10px;
   border: none;
   outline: none;
   padding: 10px;
-  background-color: #dae0e2;
+  background: rgba(128, 128, 128, 0.258);
 }
 
 textarea::placeholder {
@@ -88,7 +87,6 @@ textarea::placeholder {
 }
 
 /* Media Queries for Mobile Devices */
-
 
 @media (max-width: 480px) {
   form {
@@ -115,7 +113,6 @@ textarea::placeholder {
     width: 200px;
     font-size: 16px;
     padding: 10px;
-  
   }
 
   .status_message {
@@ -163,7 +160,6 @@ textarea::placeholder {
     width: 300px;
     font-size: 16px;
     padding: 10px;
-  
   }
 
   .status_message {
@@ -212,7 +208,6 @@ textarea::placeholder {
     width: 300px;
     font-size: 16px;
     padding: 10px;
-  
   }
 
   .status_message {
@@ -233,7 +228,6 @@ textarea::placeholder {
     font-size: 18px;
     font-weight: 800;
   }
- 
 }
 
 /* Tablets and Small Screens (max-width: 768px) */
@@ -262,7 +256,6 @@ textarea::placeholder {
     width: 200px;
     font-size: 16px;
     padding: 10px;
-  
   }
 
   .status_message {
@@ -276,7 +269,7 @@ textarea::placeholder {
   }
   .contact_send h5 {
     font-size: 14px;
-    font-weight:bold;
+    font-weight: bold;
     letter-spacing: normal;
   }
   .contact_send h5 span {
@@ -311,7 +304,6 @@ textarea::placeholder {
     width: 200px;
     font-size: 16px;
     padding: 10px;
-  
   }
 
   .status_message {
@@ -325,7 +317,7 @@ textarea::placeholder {
   }
   .contact_send h5 {
     font-size: 12px;
-    font-weight:bold;
+    font-weight: bold;
     letter-spacing: normal;
   }
   .contact_send h5 span {

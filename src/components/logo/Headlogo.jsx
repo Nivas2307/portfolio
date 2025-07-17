@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { gsap } from 'gsap';
+import React, { useEffect } from "react";
+import { gsap } from "gsap";
 import "./logo.css";
 
 const Headlogo = () => {
@@ -51,7 +51,7 @@ const Headlogo = () => {
   }, []);
 
   return (
-    <div className='lgo'>
+    <div className="lgo">
       <h2>
         <span className="bracket">{"<"}</span>
         <span className="develop">Develop</span>

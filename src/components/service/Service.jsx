@@ -16,9 +16,9 @@ const Service = () => {
     // Service box animation (slide in)
     gsap.fromTo(
       ".service_box",
-      { x: -300, opacity: 0 }, 
+      { x: -300, opacity: 0 },
       {
-        x: 0, 
+        x: 0,
         opacity: 1,
         duration: 1,
         ease: "power2.out",
@@ -28,7 +28,7 @@ const Service = () => {
           start: "top 80%",
           end: "bottom 30%",
           toggleActions: "play reverse play reverse",
-          scrub: true, 
+          scrub: true,
         },
       }
     );
@@ -54,10 +54,10 @@ const Service = () => {
     // SVG icon animation (rotate and scale)
     gsap.fromTo(
       ".ic",
-      { scale: 0.5, rotate: -90, opacity: 0 }, 
+      { scale: 0.5, rotate: -90, opacity: 0 },
       {
-        scale: 1, 
-        rotate: 0, 
+        scale: 1,
+        rotate: 0,
         opacity: 1,
         duration: 1,
         ease: "elastic.out(1, 0.75)",
@@ -75,11 +75,12 @@ const Service = () => {
     <Element id="service" className="service_outer">
       <div className="service_inner">
         <div className="service_head">
-          <h1>My Services</h1>
+          <h1 className="heading">My Services</h1>
           <p>
             As a full stack developer, I create modern, responsive, and
             user-friendly websites that are both visually appealing and
-            efficient, with expertise in both frontend and backend development...
+            efficient, with expertise in both frontend and backend
+            development...
           </p>
         </div>
         <div className="service_box_layout">

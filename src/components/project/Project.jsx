@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './project.css';
+import React, { useState } from "react";
+import "./project.css";
 
 const Project = ({ image, title, description, link }) => {
   const [show, setShow] = useState(false);
@@ -13,8 +13,8 @@ const Project = ({ image, title, description, link }) => {
     >
       <div
         className="project"
-        onMouseEnter={() => setShow(true)} 
-        onMouseLeave={() => setShow(false)} 
+        onMouseEnter={() => setShow(true)}
+        onMouseLeave={() => setShow(false)}
       >
         {show ? (
           <div className="project-content">

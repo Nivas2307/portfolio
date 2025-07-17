@@ -3,17 +3,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-    font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 3rem;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
 
 .lgo h2 {
-  font-family: 'Fira Code', monospace; 
+  font-family: "Fira Code", monospace;
   font-size: 22px;
   font-weight: 900;
   margin: 0;
@@ -22,25 +21,24 @@
 }
 
 .lgo .bracket {
-  color: #2F363F; 
-  font-size: 1.5rem;
+  color: #2f363f;
+  /* font-size: 1.5rem; */
 }
 
 .lgo .develop {
-  color: #2F363F; 
+  color: #2f363f;
 }
 
 .lgo .highlight {
-  color: #3498DB; 
+  color: #3498db;
   font-weight: bold;
-  font-size: 1.2em; 
+  /* font-size: 1.2em;  */
   margin-left: 10px;
 }
 
-
 @media (max-width: 768px) {
   .lgo {
-    padding: 5px; 
+    padding: 5px;
   }
 
   .lgo h2 {
@@ -48,10 +46,7 @@
   }
 
   .lgo .highlight {
-    font-size: 1em; 
-    margin-left: 5px; 
+    font-size: 1em;
+    margin-left: 5px;
   }
 }
-
-
-

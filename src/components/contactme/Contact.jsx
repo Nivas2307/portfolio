@@ -35,7 +35,7 @@ const Contact = () => {
         opacity: 1,
         y: 0,
         duration: 0.8,
-        stagger: 0.2, 
+        stagger: 0.2,
         ease: "power2.out",
         scrollTrigger: {
           trigger: ".contact_content",
@@ -53,7 +53,7 @@ const Contact = () => {
         opacity: 1,
         y: 0,
         duration: 1,
-        stagger: 0.3, 
+        stagger: 0.3,
         ease: "power2.out",
         scrollTrigger: {
           trigger: ".contact_me",
@@ -66,7 +66,7 @@ const Contact = () => {
     // Animate contact_sendme (form)
     gsap.fromTo(
       ".contact_sendme",
-      { opacity: 0, x:  -50 },
+      { opacity: 0, x: -50 },
       {
         opacity: 1,
         x: 0,
@@ -84,7 +84,7 @@ const Contact = () => {
   return (
     <Element className="contact_container" id="contact">
       <div className="contact_tiitle">
-        <h3>contact me</h3>
+        <h1 className="heading">contact me</h1>
       </div>
       <div className="contact_arrange">
         <div className="contact_details">
@@ -154,7 +154,16 @@ const Contact = () => {
             </div>
             <div className="box">
               <p>
-                🌍 My Location:<span>Bangalore</span>
+                🌍 My Location:
+                <span
+                  style={{
+                    textDecoration: "none",
+                    color: " #3498DB",
+                    paddingLeft: "10px",
+                  }}
+                >
+                  Chennai
+                </span>
               </p>
             </div>
           </div>

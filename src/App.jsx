@@ -3,7 +3,6 @@ import "./App.css";
 import Nav from "./components/navbar/Nav";
 import About from "./components/aboutme/About";
 import Skill from "./components/myskills/Skill";
-// import Experienace from "./components/Experience/Experienace";
 import Contact from "./components/contactme/Contact";
 import Footer from "./components/footer/Footer";
 import Service from "./components/service/Service";
@@ -36,7 +35,7 @@ const App = () => {
       });
 
       // Navbar animation
-      gsap.from(".navbar", {
+      gsap.from(".inner", {
         y: -100,
         opacity: 0,
         duration: 1,
@@ -72,9 +71,6 @@ const App = () => {
             <section id="projects">
               <Projectcontainer />
             </section>
-            {/* <section id="experience">
-              <Experienace />
-            </section> */}
             <section id="contact">
               <Contact />
             </section>
