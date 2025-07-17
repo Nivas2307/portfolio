@@ -164,6 +164,7 @@ const About = () => {
               <a
                 href="https://www.instagram.com/_born_for_voyage_/"
                 target="_blank"
+                rel="noopener noreferrer"
                 style={{ color: "#E1306C", textDecoration: "none" }}
               >
                 <FaInstagram className="i" />

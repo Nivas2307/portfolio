@@ -1,5 +1,5 @@
 .skill_outer {
-  /* border: 2px solid  black; */
+  /* border: 2px solid black; */
   height: 700px;
   width: 100vw;
 }
@@ -400,7 +400,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: -80px;
+    position: relative;
   }
 
   .skill_head {
